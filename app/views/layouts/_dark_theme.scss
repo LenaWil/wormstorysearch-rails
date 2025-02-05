@@ -80,7 +80,11 @@ hr {
   border-top: 1px solid #30363d !important;
 }
 
-.icon {
+legend, .icon {
   color: #F0F6FC !important;
 }
 
+.form-control, .select2-selection, .select2-results__option, .select2-selection__rendered {
+  background-color: #000 !important;
+  color: #f0f6fc !important;
+}
